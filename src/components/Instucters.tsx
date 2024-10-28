@@ -4,6 +4,7 @@ import { AnimatedTooltip } from "./ui/animated-tooltip";
 
 import asifImage from '@/components/images/asif.jpg'
 import myImage from '@/components/images/my-pic.jpg'
+import azharpic from '@/components/images/azher.jpg'
 const Instructors = [
   {
     id: 1,
@@ -14,6 +15,12 @@ const Instructors = [
 
   {
     id: 2,
+    name: 'Azhar Iqbal',
+    designation: 'Web Development Mentor',
+    image: azharpic, 
+  },
+  {
+    id: 3,
     name: 'M.Mubashir',
     designation: 'Web Development Mentor',
     image: myImage, 
