@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState, useMemo } from "react";
 import { useMotionValueEvent, useScroll } from "framer-motion";
 import { motion } from "framer-motion";
-import { cn } from "@/app/lib/utils";
+import { cn } from "@/app/lib/utils"
 
 interface ContentItem {
   title: string;
